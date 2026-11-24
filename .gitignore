@@ -1,8 +1,11 @@
 *.log
 .DS_Store
 .env
+.env.*
+!.env.example
 .env.backup
 .env.production
+.env.docker
 .phpactor.json
 .phpunit.result.cache
 /.codex
@@ -25,9 +28,5 @@ _ide_helper.php
 Homestead.json
 Homestead.yaml
 Thumbs.db
-.env
-.env.*
-!.env.example
-.env.docker
 .vercel
 /sig-sekolah/
